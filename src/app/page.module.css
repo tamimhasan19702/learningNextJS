@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -226,4 +226,28 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+/*write a comment about adding a style for the main navbar list and write some basic navbar styling*/
+.mainnav ul{
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+/*apply a style to the main navbar list items*/
+.mainnav ul li{
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: white; 
+  padding: 10px;
+  border-radius: 5px;   
+  transition: 0.5s;
+}
+
+/*add hover effect to the main navbar list items*/
+.mainnav ul li:hover{
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
 }
