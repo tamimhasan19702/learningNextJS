@@ -39,6 +39,11 @@
   transform: scale(1.05);
 }
 
+.blogIntro{
+  font-size: 1.5rem;
+  padding: 50px 50px 50px 0;
+}
+
 
 /*write a comment about adding a style for the main navbar list and write some basic navbar styling*/
 .mainnav ul {
