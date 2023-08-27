@@ -34,16 +34,16 @@ export default function Home() {
         A blog for hunting Coders by hunting coder tamim
       </p>
 
-     <div className="blogs">
-      <div className="blogItem">
+     <div className={styles.blogs}>
+      <div className={styles.blogItem}>
         <h1>How to Learn javascript in 2022</h1>
         <p>Javascript is one of the most popular programming languages in the world</p>
       </div>
-      <div className="blogItem">
+      <div className={styles.blogItem}>
         <h1>How to Learn javascript in 2022</h1>
         <p>Javascript is one of the most popular programming languages in the world</p>
       </div>
-      <div className="blogItem">
+      <div className={styles.blogItem}>
         <h1>How to Learn javascript in 2022</h1>
         <p>Javascript is one of the most popular programming languages in the world</p>
       </div>
