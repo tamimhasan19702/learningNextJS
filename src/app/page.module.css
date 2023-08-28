@@ -66,8 +66,15 @@
   transition: 0.5s;
 }
 
-/*add hover effect to the main navbar list items*/
-.mainnav ul li:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
+/*add hover effect for the main navbar and give it a growing effect 
+when hovered*/
+.mainnav ul li {
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
+
+.mainnav ul li:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transform: scale(1.05);
+}
+
