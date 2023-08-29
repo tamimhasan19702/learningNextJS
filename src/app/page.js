@@ -5,6 +5,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Head from "next/head";
 import Script from "next/script";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,11 +19,11 @@ export default function Home() {
 
     <nav className={styles.mainnav}>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Blog</li>
-        <li>Contact</li>
-      </ul>
+        <Link href='/'><li>Home</li></Link>
+        <Link href='/about'><li>About</li></Link>
+        <Link href='/blog'><li>Blog</li></Link>
+        <Link href='/contact'><li></li></Link>
+        </ul>
     </nav>
 
     <main className={styles.main}>
