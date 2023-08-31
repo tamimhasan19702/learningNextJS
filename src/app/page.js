@@ -31,6 +31,7 @@ export default function Home() {
         Hunting Code By Tamim
       </h1>
 
+      <img src="/photo-1623282033815-40b05d96c903.avif"/>
       <p >
         A blog for hunting Coders by hunting coder tamim
       </p>
