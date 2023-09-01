@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /**
  * eslint-disable @next/next/inline-script-id
  *
@@ -22,22 +23,7 @@ export default function Home() {
         <link rel="rel" href="./favicon.ico" />
       </Head>
 
-      <nav className={styles.mainnav}>
-        <ul>
-          <Link href="/">
-            <li>Home</li>
-          </Link>
-          <Link href="/about">
-            <li>About</li>
-          </Link>
-          <Link href="/blog">
-            <li>Blog</li>
-          </Link>
-          <Link href="/contact">
-            <li>Contact</li>
-          </Link>
-        </ul>
-      </nav>
+ 
 
       <main className={styles.main}>
         <h1 className={styles.title}>Hunting Code By Tamim</h1>
@@ -48,6 +34,7 @@ export default function Home() {
             src="/photo-1623282033815-40b05d96c903.avif"
             width={500}
             height={300}
+            alt="Photo by Tamim"
           />
         </div>
 
