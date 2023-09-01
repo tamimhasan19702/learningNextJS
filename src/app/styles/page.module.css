@@ -78,3 +78,15 @@ when hovered*/
   transform: scale(1.05);
 }
 
+.myImg {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: #fff 5px 5px 10px;
+  cursor: pointer;
+}
+
+.myImg:hover {
+  /* Add your hover animations here */
+  /* For example: */
+  transform: scale(1.1);
+}

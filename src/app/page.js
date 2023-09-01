@@ -2,7 +2,7 @@
 /** @format */
 
 import Image from "next/image";
-import styles from "../../styles/Home.module.css";
+import styles from "./styles/page.module.css";
 import Head from "next/head";
 import Script from "next/script";
 import Link from "next/link";
@@ -31,7 +31,8 @@ export default function Home() {
         Hunting Code By Tamim
       </h1>
 
-      <img src="/photo-1623282033815-40b05d96c903.avif"/>
+      <Image className={styles.myImg} src="/photo-1623282033815-40b05d96c903.avif" width={500} height={300}/>
+
       <p >
         A blog for hunting Coders by hunting coder tamim
       </p>
