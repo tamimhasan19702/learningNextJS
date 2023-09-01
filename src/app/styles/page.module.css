@@ -3,7 +3,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -89,4 +89,9 @@ when hovered*/
   /* Add your hover animations here */
   /* For example: */
   transform: scale(1.1);
+}
+
+/* add padding to the image wrap clss */
+.imgWrap {
+  padding: 20px;
 }
