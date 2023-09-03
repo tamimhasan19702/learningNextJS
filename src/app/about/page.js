@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../styles/about.module.css'
 
 const about = () => {
   return (
-    <div>
+    <div className={styles.main}>
     <h1>About Me</h1>
     <p>
       I am a blogger who is also a coder. I love sharing my experiences and knowledge through my blog posts.
