@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import styles from "../styles/Blog.module.css";
+import styles from "../styles/blog.module.css";
 import Link from "next/link";
 
 const Blog = () => {
@@ -11,7 +11,7 @@ const Blog = () => {
         <h2 className={styles.blogIntro}>Popular Blogs</h2>
 
         <div className={styles.blogs}>
-          
+
           <div className={styles.blogItem}>
             <Link href={"/blogpost/learn-javascript"}>
               <h3 className={styles.blogHead}>
