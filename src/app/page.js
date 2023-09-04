@@ -10,7 +10,6 @@
 import Image from "next/image";
 import styles from "./styles/page.module.css";
 import Head from "next/head";
-import Script from "next/script";
 import Link from "next/link";
 
 export default function Home() {
@@ -41,34 +40,50 @@ export default function Home() {
         <p>A blog for hunting Coders by hunting coder tamim</p>
 
         <div className="blogSection">
-          <h2 className={styles.blogIntro}>Popular Blogs</h2>
-          <div className={styles.blogs}>
-            <div className={styles.blogItem}>
-              <h3>How to Learn javascript in 2022</h3>
-              <p>
-                Javascript is one of the most popular programming languages in
-                the world
-              </p>
-            </div>
+        <h2 className={styles.blogIntro}>Popular Blogs</h2>
 
-            <div className={styles.blogItem}>
-              <h3>How to Learn javascript in 2022</h3>
-              <p>
-                Javascript is one of the most popular programming languages in
-                the world
-              </p>
-            </div>
+        <div className={styles.blogs}>
+          <div className={styles.blogItem}>
+            <Link href={"/blogpost/learn-javascript"}>
+              <h2 className={styles.blogHead}>
+                How to Learn javascript in 2022
+              </h2>
 
-            <div className={styles.blogItem}>
-              <h3>How to Learn javascript in 2022</h3>
               <p>
                 Javascript is one of the most popular programming languages in
                 the world
               </p>
-            </div>
-            
+            </Link>
+          </div>
+
+          <div className={styles.blogItem}>
+            <Link href={"/blogpost/learn-javascript"}>
+              <h2 className={styles.blogHead}>
+                How to Learn javascript in 2022
+              </h2>
+
+              <p>
+                Javascript is one of the most popular programming languages in
+                the world
+              </p>
+            </Link>
+          </div>
+
+          <div className={styles.blogItem}>
+            <Link href={"/blogpost/learn-javascript"}>
+              <h2 className={styles.blogHead}>
+                How to Learn javascript in 2022
+              </h2>
+
+              <p>
+                Javascript is one of the most popular programming languages in
+                the world
+              </p>
+            </Link>
           </div>
         </div>
+
+      </div>
         
       </main>
     </>

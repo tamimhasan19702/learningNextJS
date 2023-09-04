@@ -10,6 +10,7 @@ import Link from "next/link";
 const Blog = () => {
   return (
     <div className={styles.main}>
+
       <div className="blogSection">
         <h2 className={styles.blogIntro}>Popular Blogs</h2>
 
@@ -53,7 +54,9 @@ const Blog = () => {
             </Link>
           </div>
         </div>
+
       </div>
+      
     </div>
   );
 };
